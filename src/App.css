@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.stackItem{
+  margin-top: 10rem;
+}
+
 body{
   background: #fffcfc;
   min-height: 100vh;

@@ -37,7 +37,37 @@
     font-size: 1.2rem;
 }
 
-.presentationCard-img{
-    width: 20rem;
+.socialContact{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 16rem;
+}
 
+.socialContact-icon img{
+    height: calc( 2.2rem + 4px);
+    border-radius: 8px;
+}
+
+.socialContact-contactBtn {
+    text-decoration: none;
+}
+
+.socialContact-contactBtn p{
+
+    background: -webkit-linear-gradient(left bottom,#9796f0, #fbc7d4);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+
+.socialContact-contactBtn p:hover, .socialContact-icon img:hover {
+    transform: scale(1.1);
+    transition: 250ms;
 }
